@@ -61,7 +61,7 @@ html,body {
     /* padding: 10px; */
     text-decoration: none;
     color: var(--elgent-black);
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 900;
     transition: .3s ease-in;
 }
@@ -321,29 +321,48 @@ html,body {
 .section-two .features-list .feature-one img{
     margin-left: 20%;
     margin-bottom: 1vh;
+    width: 130px;
 }
 
 .section-two .features-list .feature-two img{
     margin-left: 20%;
     margin-bottom: 1vh;
+    width: 130px;
 }
 
 .section-two .features-list .feature-three img{
     margin-left: 20%;
     margin-bottom: 1vh;
+    width: 130px;
 }
 
 
 .section-two .features-list .feature-four img{
     margin-left: 20%;
     margin-bottom: 1vh;
+    width: 130px;
 }
 
 .section-two .features-list .feature-five img{
     margin-left: 35%;
     margin-bottom: 1vh;
+    width: 130px;
 }
- 
+
+.section-two .features-list .feature-seven img{
+    margin-left: 35%;
+    margin-bottom: 1vh;
+    width: 130px;
+}
+
+
+.section-two .features-list .feature-six img{
+    margin-left: 35%;
+    margin-bottom: 1vh;
+    width: 130px;
+}
+
+
 .section-two .features-list .feature-five h3{
     margin-left: 9vw;
 }
@@ -439,11 +458,12 @@ html,body {
 
 .information-facebook p { 
     margin-left: 10px;
+    margin-top: 15px;
 }
 
 .information-facebook img{
     margin-top: 20px;
-    width: 90px;
+    width: 60px;
 }
 
 .information-twitter {
@@ -455,11 +475,29 @@ html,body {
 
 .information-twitter p { 
     margin-left: 10px;
+    margin-top: 15px;
 }
 
 .information-twitter img{
     margin-top: 20px;
-    width: 90px;
+    width: 60px;
+}
+
+.information-playstore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.information-playstore p { 
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.information-playstore img{
+    margin-top: 20px;
+    width: 60px;
 }
 
 
@@ -515,6 +553,7 @@ form {
 .text {
     margin-top: 10px;
     line-height: 1.5;
+    text-align: 3eft;
 }
 
 .title::selection {
@@ -681,6 +720,7 @@ textarea.input {
 /* <------------------------------------------------- section-four ---------------------------------------------------------->*/
 
 .section-four footer {
+    margin-top: 120px;
     display: flex;
     width: 100%;
     height: 30vh;
@@ -732,16 +772,19 @@ textarea.input {
 
 .section-four .about h2{
     margin: 0.5rem;
-    font-size: 35px;
+    font-size: 28px;
+    letter-spacing: 1px;
 }
 
 .section-four .need-help h2{
     margin: 0.5rem;
-    font-size: 35px;
+    font-size: 28px;
+    letter-spacing: 1px;
 }
 .section-four .useful-links h2{
     margin: 0.5rem;
-    font-size: 35px;
+    font-size: 28px;
+    letter-spacing: 1px;
 }
 
 
@@ -749,7 +792,7 @@ textarea.input {
     transition: .2s ease-in;
     text-decoration: none;
     color: var(--elgent-black);
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 1px;
 }
 
@@ -758,7 +801,7 @@ textarea.input {
     text-decoration: none;
     color: var(--elgent-black);
     letter-spacing: 1px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .section-four .useful-links ul li a {
@@ -766,7 +809,7 @@ textarea.input {
     text-decoration: none;
     color: var(--elgent-black);
     letter-spacing: 1px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .section-four .about ul li a:hover { 
@@ -813,7 +856,7 @@ textarea.input {
     width: 100%;
     height: 3px;
     background-color: var(--elgent-black);
-    bottom: -2px;
+    bottom: -5px;
     left: 0;
     transition: .6s ease-in;
     transform: scale(0,1);
@@ -854,3 +897,5 @@ textarea.input {
 .footer-info p {
     padding: 0 5px;
 }
+
+
